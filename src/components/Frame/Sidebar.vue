@@ -43,8 +43,15 @@
         }
     }
 </script> 
-<style>
-  menu:icon {
-    color: white;
+<style scoped  lang = 'scss'>
+@import "~assets/colors.scss";
+
+  .vsm--list {
+    background-color: skyblue;
+  }
+
+     .vsm--toggle-btn{
+    color:white;
+    background-color: pink;
   }
 </style>
