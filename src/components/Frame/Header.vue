@@ -27,6 +27,8 @@
 }
 #title {
   color: $danger;
+  position: absolute;
+  left: 80px;
 }
 
 #search {

@@ -4,12 +4,12 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import router from 'router';
-import VueSidebarMenu from 'vue-sidebar-menu'
+import  Sidebar from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
-Vue.use(VueSidebarMenu)
+// Vue.use(VueSidebarMenu)
 // import VueSidebarMenu from 'vue-sidebar-menu'
 
-// Vue.use(VueSidebarMenu)
+Vue.use(Sidebar)
 
 
 

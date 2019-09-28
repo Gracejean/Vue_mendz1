@@ -2,6 +2,7 @@
     <div id="app">
       <Header></Header>
       <AppBody></AppBody>
+      <Sidebar></Sidebar>
     </div>
   </template>
 
@@ -11,7 +12,7 @@
   import Header from "components/Frame/Header.vue";
   import AppBody from 'components/Frame/Body.vue';
   // import  SidebarMenu  from 'vue-sidebar-menu';
-  import Slider from 'components/Frame/Sidebar'
+  import Sidebar from 'components/Frame/Sidebar.vue';
 
 
 
@@ -22,7 +23,8 @@
     components: {
       Header,
       AppBody,
-      'slider':Slider
+      Sidebar
+
     }
   };
   </script>
